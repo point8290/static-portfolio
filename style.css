@@ -776,7 +776,10 @@ body {
   transition: all var(--duration-normal) var(--ease-standard);
 }
 
-[data-color-scheme="dark"] .navbar,
+[data-color-scheme="dark"] .navbar {
+  background: rgba(31, 33, 33, 0.95);
+}
+
 @media (prefers-color-scheme: dark) {
   .navbar {
     background: rgba(31, 33, 33, 0.95);
