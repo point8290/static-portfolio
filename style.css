@@ -1104,6 +1104,7 @@ section {
 }
 
 .achievements li {
+  list-style-position: inside;
   margin-bottom: var(--space-8);
   line-height: 1.6;
 }
